@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arte Literária: Da Origem à Prática</title>
+    <!-- Link para Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link para Estilo Externo -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- Menu Fixo -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">📚 Arte Literária</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#origem">Origem</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#historia">História</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#artistas">Artistas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pratica">Prática</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carrossel Principal -->
+    <div id="mainCarousel" class="carousel slide mt-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <img src="assets/images/carousel/carousel-1.jpg" class="d-block w-100" alt="Escrita Antiga">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Das Tabuletas de Argila aos E-books</h2>
+                    <p>Explore a evolução da literatura ao longo dos séculos.</p>
+                    <a href="#origem" class="btn btn-primary">Saiba Mais</a>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <img src="assets/images/carousel/carousel-2.jpg" class="d-block w-100" alt="Livros Clássicos">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Os Grandes Clássicos da Literatura</h2>
+                    <p>Descubra as obras que moldaram a história da humanidade.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Controles do Carrossel -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+
+    <!-- Seção: Origem -->
+    <section id="origem" class="py-5 bg-light">
+        <div class="container">
+            <h2>📜 Origens da Literatura</h2>
+            <p>A literatura nasceu como uma forma de preservar histórias e valores culturais. Desde os contos orais da pré-história até os primeiros textos escritos em tabuletas de argila, a literatura sempre foi um reflexo da sociedade.</p>
+
+            <!-- Galeria de Imagens -->
+            <div class="row g-4 mt-4">
+                <!-- Exemplo de Imagem -->
+                <div class="col-md-4">
+                    <img src="assets/images/origem/origem-1.jpg" alt="" class="img-fluid gallery-card rounded shadow-sm">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção: História -->
+    <section id="historia" class="py-5 bg-secondary text-white">
+        <div class="container">
+            <h2>📖 Acontecimentos Históricos</h2>
+            <!-- Conteúdo Expandido -->
+            <p>A literatura evoluiu ao longo dos séculos, acompanhando mudanças sociais e culturais:</p>
+
+            <!-- Linha do Tempo -->
+            <ul>
+                <!-- Evento 1 -->
+                <li><strong>Idade Média:</strong> Literatura religiosa dominava, com destaque para obras como "A Divina Comédia".</li>
+                <!-- Adicionar mais eventos -->
+            </ul>
+
+        </div></section>
+    
+
+       <!-- Seção: Artistas -->
+       <section id="artistas" class="py-5 bg-light">
+        <div class="container">
+            <h2>🎨 Principais Artistas Latino-Americanos</h2>
+            <p>A América Latina é berço de grandes escritores que marcaram a história da literatura mundial. Conheça alguns dos principais nomes:</p>
+    
+            <!-- Lista de Artistas com Fotos -->
+            <div class="row g-4 mt-4">
+                <!-- Gabriela Mistral -->
+                <div class="col-md-3 text-center">
+                    <img src="assets/images/artistas/gabriela-mistral.jpg" alt="Gabriela Mistral" class="img-fluid rounded-circle shadow-sm mb-3">
+                    <h5>Gabriela Mistral</h5>
+                    <p>(Chile) - Primeira mulher latino-americana a ganhar o Nobel de Literatura.</p>
+                </div>
+    
+                <!-- Pablo Neruda -->
+                <div class="col-md-3 text-center">
+                    <img src="assets/images/artistas/pablo-neruda.jpg" alt="Pablo Neruda" class="img-fluid rounded-circle shadow-sm mb-3">
+                    <h5>Pablo Neruda</h5>
+                    <p>(Chile) - Autor de "Vinte Poemas de Amor e uma Canção Desesperada".</p>
+                </div>
+    
+                <!-- Gabriel García Márquez -->
+                <div class="col-md-3 text-center">
+                    <img src="assets/images/artistas/garcia-marquez.jpg" alt="Gabriel García Márquez" class="img-fluid rounded-circle shadow-sm mb-3">
+                    <h5>Gabriel García Márquez</h5>
+                    <p>(Colômbia) - Pai do realismo mágico, autor de "Cem Anos de Solidão".</p>
+                </div>
+    
+                <!-- Mario Vargas Llosa -->
+                <div class="col-md-3 text-center">
+                    <img src="assets/images/artistas/mario-vargas.jpg" alt="Mario Vargas Llosa" class="img-fluid rounded-circle shadow-sm mb-3">
+                    <h5>Mario Vargas Llosa</h5>
+                    <p>(Peru) - Autor de "A Cidade e os Cachorros".</p>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    
+
+    <!-- Seção: Prática -->
+    <section id="pratica" class="py-5 bg-white">
+        <div class="container">
+            <h2>✍️ Prática Literária</h2>
+            <p>A literatura não é apenas para ser lida, mas também para ser vivida e praticada. Aqui estão algumas atividades que podem ajudar os alunos a mergulhar no mundo literário e desenvolver suas habilidades criativas:</p>
+            
+            <!-- Lista de Atividades -->
+            <ul class="mt-4">
+                <li><strong>Leitura Crítica:</strong> Escolha textos representativos de diferentes períodos literários e analise temas, estilos e técnicas narrativas. Exemplos: "Cem Anos de Solidão" (Gabriel García Márquez) ou "Memórias Póstumas de Brás Cubas" (Machado de Assis).</li>
+                <li><strong>Produção Escrita:</strong> Exercite a criatividade escrevendo contos, poemas ou narrativas inspiradas em estilos literários estudados. Proponha temas como realismo mágico ou romantismo.</li>
+                <li><strong>Discussões em Grupo:</strong> Realize debates sobre o impacto social das obras literárias latino-americanas. Perguntas como: "Como a literatura reflete os problemas sociais?" podem estimular o pensamento crítico.</li>
+                <li><strong>Dramatização:</strong> Adapte trechos literários para pequenas encenações teatrais, explorando linguagem dramática. Por exemplo, dramatizar um trecho de "Romeu e Julieta" ou "Dom Casmurro".</li>
+                <li><strong>Criação de Microcontos:</strong> Proponha aos alunos que escrevam histórias com até 50 palavras, inspiradas em temas como amor, mistério ou cotidiano.</li>
+            </ul>
+    
+            <!-- Espaço para Galeria -->
+            <div class="row g-4 mt-4">
+                <div class="col-md-4">
+                    <img src="assets/images/pratica/pratica-1.jpg" alt="Atividade Literária" class="img-fluid gallery-card rounded shadow-sm">
+                    <p class="text-center mt-2">Leitura Crítica em Grupo</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="assets/images/pratica/pratica-2.jpg" alt="Escrita Criativa" class="img-fluid gallery-card rounded shadow-sm">
+                    <p class="text-center mt-2">Exercício de Escrita Criativa</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="assets/images/pratica/pratica-3.jpg" alt="Discussão Literária" class="img-fluid gallery-card rounded shadow-sm">
+                    <p class="text-center mt-2">Discussão Literária</p>
+                </div>
+            </div>
+    
+            <!-- Botão para Quiz Interativo -->
+            <div class="text-center mt-5">
+                <a href="#quiz" class="btn btn-primary btn-lg">Teste seus conhecimentos literários</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Rodapé -->
+    <footer class="py-4 bg-dark text-white">
+        <div class="container text-center">
+            <p>&copy; 2025 Arte Literária. Todos os direitos reservados.</p>
+            <p>Feito com ❤️ para alunos do 9º H.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Script Externo -->
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
